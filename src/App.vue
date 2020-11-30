@@ -5,10 +5,10 @@ v-app
       GradientText {{ $t("mainTitle") }}
       MainSubtitle {{ $t("mainSubtitle") }}
       GradientText(:smaller='true') {{ $t("rulesTitle") }}
-      RuleAndImage(:index='0')
-      RuleList(:cardIndexArray='[1]')
-      RuleAndImage(:index='2', :left='true')
-      RuleList(:cardIndexArray='[3, 4, 5, 6, 7, 8, 9, 10, 11]')
+      //- RuleAndImage(:index='0')
+      //- RuleList(:cardIndexArray='[1]')
+      //- RuleAndImage(:index='2', :left='true')
+      RuleList(:cardIndexArray='[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]')
       .made-by(v-html='$t("madeBy")')
       v-btn(icon, text, @click='setLanguage("en")') 🇺🇸
       v-btn(icon, text, @click='setLanguage("ru")') 🇷🇺
