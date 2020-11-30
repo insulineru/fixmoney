@@ -50,6 +50,10 @@ export default class App extends Vue {
 </script>
 
 <style>
+* {
+  -webkit-locale: auto;
+}
+
 .main-container {
   width: 100%;
   justify-content: center;
