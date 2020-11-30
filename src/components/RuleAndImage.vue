@@ -7,7 +7,7 @@
     :description='$t("rules")[index].description',
     :source='$t("rules")[index].source'
   )
-  img.ml-4(v-if='!left', :src='`/images/${index}.svg`')
+  img.ml-4(v-if='!left', :src='`./images/${index}.svg`')
 </template>
 
 <script lang="ts">
