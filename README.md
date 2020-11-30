@@ -1,6 +1,6 @@
-# [Fix Sleep](https://fixsleep.link) code
+# [Fix Money](https://insulineru.github.io/fixmoney) code
 
-The website that contains rules about how to get better sleep.
+The website that contains rules about how to get better money management.
 
 ## Project setup
 
